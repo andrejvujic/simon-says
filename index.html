@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <div id="game">
+      <div id="game-info">
+        <div class="score">Score: 0</div>
+        <div class="restart">
+          <button class="restart-button">Restart</button>
+        </div>
+      </div>
+      <div id="game-board">
+        <div class="row-1">
+          <div class="block"></div>
+          <div class="block"></div>
+        </div>
+        <div class="row-2">
+          <div class="block"></div>
+          <div class="block"></div>
+        </div>
+
+        <div class="start">
+          <button class="start-button">Start Game</button>
+          <p class="lost-game no-click no-display">
+            You messed up! <br />Game Over!
+          </p>
+          <p class="your-turn no-click no-display">Now repeate them!</p>
+          <p class="computer-turn no-click no-display">Remember the moves.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
