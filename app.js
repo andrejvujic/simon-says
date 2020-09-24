@@ -53,7 +53,7 @@ Moves = function () {
   this.list = [];
 
   this.add_new = () => {
-    this.list.push(blocks[Math.floor(Math.random() * blocks.length)]);
+    this.list.push(blocks[Math.floor(Math.random() * (blocks.length + 1))]);
   };
 
   this.play = () => {
